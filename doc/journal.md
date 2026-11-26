@@ -21,4 +21,10 @@ The planned post-commit hook should append one stub per new hash and preserve ea
 
 ## Recorded commits
 
-No development commits have been entered here yet. The first docs entry will use the actual documentation commit hash.
+## 2026-11-26 — Add Aether development workflow documentation
+
+- **Issue:** Aether needed a shared way to track decisions, active work, handoffs, and verification.
+- **Solution:** Added seven development Markdown files using the LazyCow workflow as a reference and Final Build v1.5 as the Aether design authority.
+- **Files:** `doc/context.md`, `doc/decisions.md`, `doc/handoff.md`, `doc/journal.md`, `doc/missions.md`, `doc/onboarding.md`, `doc/voice.md`.
+- **Verified:** All seven files were present in the staged diff, the wording fixes were reviewed, and `git diff --cached --check` produced no output. `git status --short --branch` showed a clean `docs/setup` branch after the commit.
+- **Commit:** `b548e14`

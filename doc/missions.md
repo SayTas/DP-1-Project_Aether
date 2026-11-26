@@ -11,9 +11,10 @@ Each mission can record status, owner, blocker, verification, and commit hash wh
 - [x] Clone the GitHub repository on Irfan's Windows PC.
 - [x] Check Git status and inventory. The reported main branch was clean and only README.md was tracked.
 - [x] Draft and revise the seven starter documents against the LazyCow originals.
-- [ ] Create the docs/setup branch, place the files in doc/, and review them.
+- [x] Create the docs/setup branch, place the files in doc/, and review them.
 - [ ] Confirm where the team can find the shared Final Build v1.5 copy.
-- [ ] Commit and push the reviewed docs branch.
+- [x] Commit the reviewed docs as b548e14.
+- [ ] Push docs/setup for team review.
 - [ ] Agree on boot generation and post-commit journal stubs before adding that tooling.
 
 **Verification** — Confirm docs/setup, seven expected doc/ paths, working-tree status and the actual commit after review.

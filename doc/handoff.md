@@ -1,10 +1,10 @@
 # Aether — Handoff
 
-Last updated 26 November 2026. Last checkpoint commit unknown. Branch and working tree below reflect the last output Irfan shared.
+Last updated 26 November 2026. This checkpoint records the initial documentation commit b548e14 on docs/setup.
 
 ## §1 Current Focus
 
-Initialize the development docs. Irfan asked for a closer adaptation of the LazyCow structure and working rules. The seven revised drafts are ready for local review. The pending step is to verify that they are beside README.md under doc/ on docs/setup.
+The seven development docs are in doc/ and were committed on docs/setup as b548e14. The next step is to commit this checkpoint and push the branch for team review.
 
 ## §2 Sub-task State
 
@@ -32,12 +32,11 @@ Irfan's Command Prompt output verified the clone and the README-only inventory. 
 
 ## §5 Uncommitted and recent commits
 
-Last observed branch was main with a clean working tree, before local placement of the docs. Confirm the new branch, local changes and recent commits with git status --short --branch and git log -5 --oneline. The documentation commit hash is pending.
+Git reported a clean working tree on docs/setup immediately after b548e14. The journal, handoff, and mission updates form the follow-up checkpoint.
 
 ### §5-PENDING
 
-- [ ] Verify docs/setup and the seven revised files in the local clone.
-- [ ] Review and stage the approved docs. Record their commit once it exists.
+- [ ] Commit the documentation checkpoint and push docs/setup for team review.
 
 For teammate-applied patches, record the pending change here before giving the FIND/REPLACE. If only the teammate can edit the local repo, give them the exact handoff edit and track it in the conversation until they confirm it is applied. Clear the pending entry after the teammate confirms the result.
 
