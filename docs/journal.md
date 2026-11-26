@@ -36,3 +36,19 @@ The planned post-commit hook should append one stub per new hash and preserve ea
 - **Files:** `.githooks/post-commit`, `doc/handoff.md`, `doc/journal.md`, `doc/missions.md`.
 - **Verified:** The staged whitespace check passed. After committing on Windows, the journal contained one new slot for `cff490f` with all four fill-in fields.
 - **Commit:** `cff490f`
+
+## 2026-11-26 — Document Aether team Git workflow
+
+- **Issue:** (fill in)
+- **Solution:** (fill in)
+- **Files:** (fill in)
+- **Verified:** (fill in)
+- **Commit:** `439a58a`
+
+## 2026-11-27 — Add Aether Command UI prototype
+
+- **Issue:** (fill in)
+- **Solution:** (fill in)
+- **Files:** (fill in)
+- **Verified:** (fill in)
+- **Commit:** `32b2867`

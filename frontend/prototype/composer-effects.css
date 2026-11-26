@@ -1,18 +1,19 @@
 @font-face {
     font-family: "Aether SF Pro";
-    src: local("SF Pro Text Regular"), local("SFProText-Regular");
+    src: local("SF Pro Text Regular"), local("SFProText-Regular"), local("Inter");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Aether SF Pro";
-    src: local("SF Pro Text Semibold"), local("SFProText-Semibold");
+    src: local("SF Pro Text Semibold"), local("SFProText-Semibold"), local("Inter");
     font-weight: 600 650;
 }
 
 :root {
     color-scheme: light;
-    font-family: "Aether SF Pro", "SF Pro Text", "Segoe UI Variable", system-ui, sans-serif;
+    /* Added "Inter" right before the fallback */
+    font-family: "Aether SF Pro", "SF Pro Text", "Inter", "Segoe UI Variable", system-ui, sans-serif;
 
     /* Default Light Variables */
     --wallpaper-glass: 255 255 255;
