@@ -1,0 +1,22 @@
+#!/bin/sh
+set -eu
+
+journal=doc/journal.md
+commit_hash=$(git log -1 --format=%h)
+commit_date=$(git log -1 --format=%as)
+commit_subject=$(git log -1 --format=%s)
+commit_line="- **Commit:** \`$commit_hash\`"
+
+if grep -Fxq -- "$commit_line" "$journal"; then
+    exit 0
+fi
+
+{
+    printf '\n## %s — %s\n\n' "$commit_date" "$commit_subject"
+    printf '%s\n' \
+        '- **Issue:** (fill in)' \
+        '- **Solution:** (fill in)' \
+        '- **Files:** (fill in)' \
+        '- **Verified:** (fill in)' \
+        "$commit_line"
+} >> "$journal"
