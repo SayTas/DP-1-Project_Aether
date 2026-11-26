@@ -28,3 +28,11 @@ The planned post-commit hook should append one stub per new hash and preserve ea
 - **Files:** `doc/context.md`, `doc/decisions.md`, `doc/handoff.md`, `doc/journal.md`, `doc/missions.md`, `doc/onboarding.md`, `doc/voice.md`.
 - **Verified:** All seven files were present in the staged diff, the wording fixes were reviewed, and `git diff --cached --check` produced no output. `git status --short --branch` showed a clean `docs/setup` branch after the commit.
 - **Commit:** `b548e14`
+
+## 2026-11-26 — Record initial Aether docs checkpoint and add journal hook
+
+- **Issue:** Aether needed automatic journal slots after commits and a checkpoint for the initial documentation.
+- **Solution:** Recorded the initial docs checkpoint and added a post-commit hook that appends a journal slot with the commit date, subject, and hash.
+- **Files:** `.githooks/post-commit`, `doc/handoff.md`, `doc/journal.md`, `doc/missions.md`.
+- **Verified:** The staged whitespace check passed. After committing on Windows, the journal contained one new slot for `cff490f` with all four fill-in fields.
+- **Commit:** `cff490f`
