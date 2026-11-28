@@ -59,4 +59,4 @@ The safety rules apply from the first slice: authorized resources, applicable lo
 - [Detailed architecture](ARCHITECTURE.md)
 - Requirements baseline: `docs/requirements/Aether_Requirements_Baseline.xlsx` (use the actual filename in the repository).
 
-**Status:** This is a design proposal, not a report of implemented capabilities. Version 1.0 scope, model selection, benchmarks and supported application versions remain open. Confirm course submission paths before freezing the directory layout.
+**Status:** This is a design proposal, not a report of implemented capabilities. Version 1.0 scope, model selection, benchmarks and supported application versions remain open.

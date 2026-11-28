@@ -315,4 +315,4 @@ Ownership proposal: retain the v1.5 split (A: native/browser/Office and verifica
 - Aether AI Development Context v1.5 (20 November 2026), especially command lifecycle, capability contracts, local integration and delivery sections.
 - DP-I Aether SRS and Final Build Guide as supporting requirement/technical references.
 
-Changes to architectural contracts should record rationale, affected requirements, compatibility and test impact. Changes to release commitments need explicit team/supervisor disposition as applicable. The proposed style combination, package boundaries and diagrams are design recommendations awaiting review.
+
